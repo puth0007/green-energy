@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Noticia+Text&display=swap');
+
+body {
+	font-family: 'Noticia Text', serif;
+    font-weight: 300;
+	color: darkgreen;
+}
+
+body strong {
+	font-weight: 700;
+    }
+
+h1, h2 {
+	font-family: 'Bitter', serif;
+    }
+
+h1 {
+	font-size: 40px;
+	margin-top: 0px;
+    }
+
+h2 {
+	font-size: 1rem;
+	margin-top: 10px;
+}
+
+p {
+	font-size: 0.75rem;
+	line-height: 1.4rem;
+    }
+
+nav ul li a {
+	font-family: 'Noticia Text', serif;
+	font-weight: 400;
+	font-size: 20px;
+    }
+
+nav ul li a:hover {
+	color: darkolivegreen;
+    }
+
+ul {
+	list-style: none;
+    }
+
+a {
+	color: #fff;
+	text-decoration: none;
+    }
+a:hover {
+	color: #fff;
+    }
+
+body {
+	background-color: lightgreen;
+    }
+
+header {
+	background-size: auto;
+	margin: 0;
+	text-align: center;
+    }
+
+.masthead {
+	display: inline;
+	width: 100%;
+	margin: auto;
+    }
+
+.masthead br {
+	margin-bottom: 30px;
+    }
+
+.tagline {
+	float: left;
+	font-weight: 400;
+	font-size: 2rem;
+    }
+
+.logo {
+	float: left;
+	background-size: 30px 30px;
+	padding-right: 10px;
+	padding-left: 20px;
+	width: 40px;
+    }
+
+nav {
+	background-color: #478F31;
+	text-align: center;
+    }
+
+nav ul li a {
+	color: #fff;
+    }
+
+nav ul li {
+	padding-bottom: 2px;
+    }
+
+nav ul li:nth-child(1n) {
+	padding-top: 2px;
+    }
+
+#main-box {
+	width: 90%;
+	margin: auto;
+    }
+
+button {
+	float: left;
+	width: 30%;
+	font-family: 'Noticia Text', serif;
+	height: 40px;
+	background-color: lightseagreen;
+    margin: 0 2.5px;
+	padding-top: 0;
+	border: none;
+    }
+
+button:hover {
+	opacity: 75%;
+    }
+
+#active {
+	font-weight: 700;
+    }
+
+.container {
+	display: block;
+	width: 90%;
+	margin: auto;
+    }
+
+.container h1, .container h2, .container p {
+	text-align: center;
+    }
+
+.container img {
+	margin: auto;
+	align-content: center;
+    }
+
+.container h2 {
+	float: left;
+	font-size: 1.25rem;
+	text-align: center;
+	margin: 10px auto;
+	width: 100%;
+    }
+
+.container p {
+	max-width: 350px
+    }
+
+.clearfix {
+	overflow: auto;
+	display: inline;
+    }
+
+footer {
+	background-color: #478F31;
+    padding-top: 50px;
+	margin: 30px auto;
+	text-align: center;
+	font-size: .75rem;
+    }
+
+#footer-box {
+	display: block;
+	margin: auto;
+	width: 100%;
+    }
+
+footer img {
+	float: left;
+	width: 40px;
+	padding: 0 30px;
+    }
+
+footer a img:hover {
+	opacity: 75%;
+    }
+
+/* --- Media Queries --- */
+
+@media (min-width: 700px) {
+	.tagline {
+		font-size: 3rem;
+		margin-bottom: 0;
+	}
+    
+	header .logo {
+		float: left;
+		height: 120px;
+		width: auto;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+    
+	nav {
+		display: block;
+		width: 100%;
+		margin-left: -20px;
+		padding: 0;
+	}
+    
+	nav ul li a {
+		color: #fff;
+		font-size: 1.5rem;
+	}
+    
+	nav ul li {
+		background-color: #478F31;
+		display: block;
+		float: left;
+		width: 20%;
+		padding: 10px 0 10px 0;
+		text-align: center;
+		font-size: 2em;
+	}
+    
+	.container h2, .container p {
+		text-align: left;
+	}
+    
+	.container h2 {
+		font-size: 2rem;
+		padding-top: 10px;
+	}
+    
+	.container p {
+		font-size: 1rem;
+	}
+    
+	.container img {
+		float: right;
+	}
+    
+	.box button {
+		display: inline;
+		width: 120px;
+	} 
+    
+	footer {
+		display: inline;
+		float: none;
+	}
+    
+	footer a img {
+		width: 40px;
+		height: auto;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+}
+
+@media (min-width: 1000px) {
+	header .tagline {
+		font-size: 3.3rem;
+	}
+    
+	header .logo {
+		height: 140px;
+	}
+    
+	.box button {
+		height: 60px;
+		width: 250px;
+		font-size: 1rem;
+	}
+    
+	.container p {
+	max-width: 700px
+	}
+}
